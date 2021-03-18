@@ -1,26 +1,32 @@
 {
-  "develop": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyjeroen-develop-173502-authRole",
-      "UnauthRoleArn": "arn:aws:iam::513547905716:role/amplify-amplifyjeroen-develop-173502-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::513547905716:role/amplify-amplifyjeroen-develop-173502-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-amplifyjeroen-develop-173502-deployment",
-      "UnauthRoleName": "amplify-amplifyjeroen-develop-173502-unauthRole",
-      "StackName": "amplify-amplifyjeroen-develop-173502",
-      "StackId": "arn:aws:cloudformation:eu-west-1:513547905716:stack/amplify-amplifyjeroen-develop-173502/e6783bc0-8807-11eb-9fb9-069018241281",
-      "AmplifyAppId": "d2d0b7pi7kpvx2"
-    },
-    "categories": {
-      "auth": {
-        "amplifyjeroenae9a46ad": {}
-      },
-      "function": {
-        "amplifyjeroen5f52078f": {
-          "deploymentBucketName": "amplify-amplifyjeroen-develop-173502-deployment",
-          "s3Key": "amplify-builds/amplifyjeroen5f52078f-4531454a3555496e5630-build.zip"
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyjeroen-develop-173502-authRole",
+            "UnauthRoleArn": "arn:aws:iam::513547905716:role/amplify-amplifyjeroen-develop-173502-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::513547905716:role/amplify-amplifyjeroen-develop-173502-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-amplifyjeroen-develop-173502-deployment",
+            "UnauthRoleName": "amplify-amplifyjeroen-develop-173502-unauthRole",
+            "StackName": "amplify-amplifyjeroen-develop-173502",
+            "StackId": "arn:aws:cloudformation:eu-west-1:513547905716:stack/amplify-amplifyjeroen-develop-173502/e6783bc0-8807-11eb-9fb9-069018241281",
+            "AmplifyAppId": "d2d0b7pi7kpvx2"
+        },
+        "categories": {
+            "auth": {
+                "amplifyjeroenae9a46ad": {}
+            },
+            "function": {
+                "amplifyjeroen5f52078f": {
+                    "deploymentBucketName": "amplify-amplifyjeroen-develop-173502-deployment",
+                    "s3Key": "amplify-builds/amplifyjeroen5f52078f-4531454a3555496e5630-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2d0b7pi7kpvx2",
+                    "type": "cicd"
+                }
+            }
         }
-      }
     }
-  }
 }
