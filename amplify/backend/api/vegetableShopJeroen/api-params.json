@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/vegetables",
+            "lambdaFunction": "amplifyjeroen5f52078f",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/vegetables"
+        }
+    ],
+    "resourceName": "vegetableShopJeroen",
+    "apiName": "vegetableShopJeroen",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyjeroen5f52078f"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyjeroen-dev-145909-authRole",
+        "unAuthRoleName": "amplify-amplifyjeroen-dev-145909-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyjeroen5f52078f",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
